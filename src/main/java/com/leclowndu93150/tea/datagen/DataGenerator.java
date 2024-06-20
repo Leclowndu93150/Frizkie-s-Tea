@@ -20,7 +20,7 @@ public class DataGenerator {
                 add("item.tea.black_tea_blend", "Black Tea Blend");
                 add("item.tea.red_tea_blend", "Red Tea Blend");
                 add("item.tea.green_tea_blend", "Green Tea Blend");
-                add("item.tea.black_tea_cup", "Cup of Green Tea");
+                add("item.tea.black_tea_cup", "Cup of Black Tea");
                 add("item.tea.red_tea_cup", "Cup of Red Tea");
                 add("item.tea.green_tea_cup", "Cup of Green Tea");
                 add("item.tea.cup", "Cup");
