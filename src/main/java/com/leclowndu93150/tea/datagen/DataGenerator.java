@@ -15,14 +15,13 @@ public class DataGenerator {
             @Override
             protected void addTranslations() {
                 add("itemGroup.tea", "Frizkie's Tea");
-                add("item.tea.boiled_water_bucket", "Boiled Water Bucket");
-                add("item.tea.boiled_water_cup", "Boiled Water Cup");
+                add("item.tea.boiling_water_cup", "Boiling Water Cup");
                 add("item.tea.black_tea_blend", "Black Tea Blend");
                 add("item.tea.red_tea_blend", "Red Tea Blend");
                 add("item.tea.green_tea_blend", "Green Tea Blend");
-                add("item.tea.black_tea_cup", "Cup of Black Tea");
-                add("item.tea.red_tea_cup", "Cup of Red Tea");
-                add("item.tea.green_tea_cup", "Cup of Green Tea");
+                add("item.tea.black_tea_cup", "Cup of Sugary Tea");
+                add("item.tea.red_tea_cup", "Cup of Red Rose Tea");
+                add("item.tea.green_tea_cup", "Cup of Cactus Green Tea");
                 add("item.tea.cup", "Cup");
                 add("item.tea.clay_cup", "Clay Cup");
                 add("item.tea.water_cup", "Cup of Water");
@@ -30,5 +29,9 @@ public class DataGenerator {
                 add("effect.tea.poison_immunity", "Poison Immunity");
             }
         });
+
+        event.getGenerator().addProvider(
+                event.includeServer(), output -> new TeaRecipes(event.getGenerator().getPackOutput(), event.getLookupProvider())
+        );
     }
 }

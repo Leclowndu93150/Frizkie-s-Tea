@@ -23,7 +23,7 @@ public class CreativeTabRegistry {
                 output.accept(ItemRegistry.BLACK_TEA_CUP.get());
                 output.accept(ItemRegistry.GREEN_TEA_CUP.get());
                 output.accept(ItemRegistry.RED_TEA_CUP.get());
-                output.accept(ItemRegistry.BOILED_WATER_CUP.get());
+                output.accept(ItemRegistry.BOILING_WATER_CUP.get());
                 output.accept(ItemRegistry.CUP.get());
                 output.accept(ItemRegistry.CLAY_CUP.get());
                 output.accept(ItemRegistry.WATER_CUP.get());

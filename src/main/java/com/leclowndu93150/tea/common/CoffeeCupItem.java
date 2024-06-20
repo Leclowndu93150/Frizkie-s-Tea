@@ -15,14 +15,21 @@ import org.jetbrains.annotations.NotNull;
 
 import java.util.List;
 
-public class BoilingWaterItems extends Item {
-    public BoilingWaterItems(Properties pProperties) {
+public class CoffeeCupItem extends Item {
+    public CoffeeCupItem(Properties pProperties) {
         super(new Properties().food(new FoodProperties.Builder()
-                .saturationModifier(0)
-                .nutrition(0)
+                .saturationModifier(20)
+                .nutrition(20)
                 .alwaysEdible()
                 .usingConvertsTo(ItemRegistry.CUP)
                 .build()));
+    }
+
+    @Override
+    public @NotNull ItemStack finishUsingItem(@NotNull ItemStack pStack, @NotNull Level pLevel, LivingEntity pLivingEntity) {
+        float newHealth = pLivingEntity.getMaxHealth();
+        pLivingEntity.setHealth(newHealth);
+        return super.finishUsingItem(pStack, pLevel, pLivingEntity);
     }
 
     @Override
@@ -46,14 +53,9 @@ public class BoilingWaterItems extends Item {
     }
 
     @Override
-    public ItemStack finishUsingItem(ItemStack pStack, Level pLevel, LivingEntity pLivingEntity) {
-        pLivingEntity.igniteForTicks(60);
-        return super.finishUsingItem(pStack, pLevel, pLivingEntity);
-    }
-
-    @Override
     public void appendHoverText(ItemStack pStack, TooltipContext pContext, List<Component> pTooltipComponents, TooltipFlag pTooltipFlag) {
-        pTooltipComponents.add(Component.literal("Dont drink this !!!").withStyle(ChatFormatting.GRAY));
+        pTooltipComponents.add(Component.literal("Instantly gain all your health and hunger !").withStyle(ChatFormatting.GRAY));
         super.appendHoverText(pStack, pContext, pTooltipComponents, pTooltipFlag);
     }
+
 }
