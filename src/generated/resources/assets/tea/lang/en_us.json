@@ -1,0 +1,16 @@
+{
+  "effect.tea.poison_immunity": "Poison Immunity",
+  "item.tea.black_tea_blend": "Black Tea Blend",
+  "item.tea.black_tea_cup": "Cup of Green Tea",
+  "item.tea.boiled_water_bucket": "Boiled Water Bucket",
+  "item.tea.boiled_water_cup": "Boiled Water Cup",
+  "item.tea.clay_cup": "Clay Cup",
+  "item.tea.coffee_cup": "Cup of Coffee",
+  "item.tea.cup": "Cup",
+  "item.tea.green_tea_blend": "Green Tea Blend",
+  "item.tea.green_tea_cup": "Cup of Green Tea",
+  "item.tea.red_tea_blend": "Red Tea Blend",
+  "item.tea.red_tea_cup": "Cup of Red Tea",
+  "item.tea.water_cup": "Cup of Water",
+  "itemGroup.tea": "Frizkie's Tea"
+}
