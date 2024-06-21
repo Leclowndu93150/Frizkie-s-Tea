@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "minecraft:string"
+    },
+    "g": {
+      "item": "minecraft:green_dye"
+    },
+    "o": {
+      "item": "minecraft:oak_leaves"
+    },
+    "p": {
+      "item": "minecraft:paper"
+    }
+  },
+  "pattern": [
+    " a ",
+    "ogo",
+    "ppp"
+  ],
+  "result": {
+    "count": 1,
+    "id": "tea:green_tea_blend"
+  }
+}

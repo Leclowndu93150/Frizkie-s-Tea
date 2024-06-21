@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "tea:red_tea_blend"
+    },
+    "b": {
+      "item": "tea:boiling_water_cup"
+    }
+  },
+  "pattern": [
+    "a",
+    "b"
+  ],
+  "result": {
+    "count": 1,
+    "id": "tea:red_tea_cup"
+  }
+}

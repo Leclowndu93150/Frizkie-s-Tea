@@ -1,0 +1,21 @@
+// 1.21	2024-06-21T10:22:02.3818617	Recipes
+06216671861837cc718a68ae7346d05806e93c66 data/tea/advancement/recipes/misc/black_tea_blend.json
+328312111cac948e05028d5ce1aea29be304cf4f data/tea/advancement/recipes/misc/black_tea_cup.json
+db2a428704afdcd1f895f51ac703058f166fd82c data/tea/advancement/recipes/misc/boiling_water_cup.json
+875b73268a8194684a8701b650e5c94afee0c705 data/tea/advancement/recipes/misc/clay_cup.json
+47b5fc242fe12c60d79f5658510470f28d94d828 data/tea/advancement/recipes/misc/coffee_cup.json
+918d390368f50a5545ff4a63967710f6f24600f2 data/tea/advancement/recipes/misc/cup.json
+353216891a302fb97bb04c33cfa46c4de9238366 data/tea/advancement/recipes/misc/green_tea_blend.json
+96e0d5ee554f03332de610e573a33a695574ac2c data/tea/advancement/recipes/misc/green_tea_cup.json
+00085a829ddba7d05d207bf75a83faf376809516 data/tea/advancement/recipes/misc/red_tea_blend.json
+6bd1af3ebb553a4d1ccfeabc47591fa0b28a0ddf data/tea/advancement/recipes/misc/red_tea_cup.json
+e2edf296307eec1b781e0b85ff57661b4793e71d data/tea/recipe/black_tea_blend.json
+19c7e03acf9eccbe1b1eec423a4fc26788a428a5 data/tea/recipe/black_tea_cup.json
+f38a028430274d7af2e1ae53afc3a41130fd609c data/tea/recipe/boiling_water_cup.json
+eda724621b8eea07026846214837319210cd41ed data/tea/recipe/clay_cup.json
+615c0055566e71e0c3ae645272f56ed5df85dd4f data/tea/recipe/coffee_cup.json
+a45a06af5b890e20718ae53a0514cd9e972989b6 data/tea/recipe/cup.json
+1682e66641b6bae918ba34a0e1c12b24c4f5916d data/tea/recipe/green_tea_blend.json
+2df57b4e33a5b5ea4671e80e62681521cf2142f4 data/tea/recipe/green_tea_cup.json
+2cc94a489e218b7adc9acd9f3a920bcd592444bc data/tea/recipe/red_tea_blend.json
+f8a1f6011d8e6f74de83de03828c2de37b2a12b6 data/tea/recipe/red_tea_cup.json

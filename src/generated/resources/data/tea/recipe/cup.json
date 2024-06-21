@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 10.0,
+  "ingredient": {
+    "item": "tea:clay_cup"
+  },
+  "result": {
+    "count": 1,
+    "id": "tea:cup"
+  }
+}

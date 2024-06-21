@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "minecraft:string"
+    },
+    "o": {
+      "item": "minecraft:oak_leaves"
+    },
+    "p": {
+      "item": "minecraft:paper"
+    },
+    "s": {
+      "item": "minecraft:sugar_cane"
+    }
+  },
+  "pattern": [
+    " a ",
+    "oso",
+    "ppp"
+  ],
+  "result": {
+    "count": 1,
+    "id": "tea:black_tea_blend"
+  }
+}

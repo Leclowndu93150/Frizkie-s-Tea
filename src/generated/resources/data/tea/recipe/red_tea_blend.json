@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "minecraft:string"
+    },
+    "o": {
+      "item": "minecraft:oak_leaves"
+    },
+    "p": {
+      "item": "minecraft:paper"
+    },
+    "r": {
+      "item": "minecraft:red_dye"
+    }
+  },
+  "pattern": [
+    " a ",
+    "oro",
+    "ppp"
+  ],
+  "result": {
+    "count": 1,
+    "id": "tea:red_tea_blend"
+  }
+}
