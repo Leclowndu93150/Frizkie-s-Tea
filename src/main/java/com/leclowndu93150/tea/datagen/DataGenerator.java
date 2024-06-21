@@ -1,6 +1,7 @@
 package com.leclowndu93150.tea.datagen;
 
 import com.leclowndu93150.tea.TeaMain;
+import net.minecraft.data.DataProvider;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.neoforge.common.data.LanguageProvider;
@@ -31,7 +32,7 @@ public class DataGenerator {
         });
 
         event.getGenerator().addProvider(
-                event.includeServer(), output -> new TeaRecipes(event.getGenerator().getPackOutput(), event.getLookupProvider())
+                event.includeServer(), (DataProvider.Factory<TeaRecipes>) output -> new TeaRecipes(event.getGenerator().getPackOutput(), event.getLookupProvider())
         );
     }
 }

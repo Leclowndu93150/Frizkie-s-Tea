@@ -26,7 +26,7 @@ public class TeaRecipes extends RecipeProvider {
                 .define('g', Items.GREEN_DYE)
                 .define('o', Items.OAK_LEAVES)
                 .define('p', Items.PAPER)
-                .save(pRecipeOutput,"tea:green_tea_blend");
+                .save(pRecipeOutput);
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ItemRegistry.RED_TEA_BLEND)
                 .pattern(" a ")
@@ -36,7 +36,7 @@ public class TeaRecipes extends RecipeProvider {
                 .define('g', Items.RED_DYE)
                 .define('o', Items.OAK_LEAVES)
                 .define('p', Items.PAPER)
-                .save(pRecipeOutput,"tea:red_tea_blend");
+                .save(pRecipeOutput);
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ItemRegistry.BLACK_TEA_BLEND)
                 .pattern(" a ")
@@ -46,47 +46,47 @@ public class TeaRecipes extends RecipeProvider {
                 .define('g', Items.SUGAR_CANE)
                 .define('o', Items.OAK_LEAVES)
                 .define('p', Items.PAPER)
-                .save(pRecipeOutput,"tea:black_tea_blend");
+                .save(pRecipeOutput);
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ItemRegistry.CLAY_CUP)
                 .pattern("c c")
                 .pattern(" c ")
                 .define('c', Items.CLAY_BALL)
-                .save(pRecipeOutput,"tea:clay_cup");
+                .save(pRecipeOutput);
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ItemRegistry.GREEN_TEA_CUP)
                 .pattern("a")
                 .pattern("b")
                 .define('a', ItemRegistry.GREEN_TEA_BLEND)
                 .define('b', ItemRegistry.BOILING_WATER_CUP)
-                .save(pRecipeOutput,"tea:green_tea_cup");
+                .save(pRecipeOutput);
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ItemRegistry.RED_TEA_CUP)
                 .pattern("a")
                 .pattern("b")
                 .define('a', ItemRegistry.RED_TEA_BLEND)
                 .define('b', ItemRegistry.BOILING_WATER_CUP)
-                .save(pRecipeOutput,"tea:red_tea_cup");
+                .save(pRecipeOutput);
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ItemRegistry.BLACK_TEA_CUP)
                 .pattern("a")
                 .pattern("b")
                 .define('a', ItemRegistry.BLACK_TEA_BLEND)
                 .define('b', ItemRegistry.BOILING_WATER_CUP)
-                .save(pRecipeOutput,"tea:black_tea_cup");
+                .save(pRecipeOutput);
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ItemRegistry.COFFEE_CUP)
                 .pattern("a")
                 .pattern("b")
                 .define('a', Items.COCOA_BEANS)
                 .define('b', ItemRegistry.BOILING_WATER_CUP)
-                .save(pRecipeOutput,"tea:coffee_cup");
+                .save(pRecipeOutput);
 
         SimpleCookingRecipeBuilder.smelting(Ingredient.of(ItemRegistry.WATER_CUP), RecipeCategory.MISC, ItemRegistry.BOILING_WATER_CUP, 10F, 100)
-                .save(pRecipeOutput, "tea:smelting/boiling_water_cup");
+                .save(pRecipeOutput);
 
         SimpleCookingRecipeBuilder.smelting(Ingredient.of(ItemRegistry.CLAY_CUP), RecipeCategory.MISC, ItemRegistry.CUP, 10F, 100)
-                .save(pRecipeOutput, "tea:smelting/cup");
+                .save(pRecipeOutput);
     }
 
 }
