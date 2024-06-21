@@ -31,7 +31,7 @@ public class GreenTeaCupItem extends Item {
 
     @Override
     public int getMaxStackSize(@NotNull ItemStack stack) {
-        return 1;
+        return 8;
     }
 
     @Override
